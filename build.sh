@@ -20,7 +20,7 @@ rpm-ostree install screen
 rpm-ostree override remove firefox firefox-langpacks
 
 # Obs camera plugin
-0rpm-ostree install v4l2loopback
+rpm-ostree install v4l2loopback
 
 #### Example for enabling a System Unit File
 
