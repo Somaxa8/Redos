@@ -20,10 +20,10 @@ rpm-ostree install screen
 rpm-ostree override remove firefox firefox-langpacks
 
 # Rpmfusion
-sudo rpm-ostree install https://mirrors.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm https://mirrors.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
+rpm-ostree install https://mirrors.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm https://mirrors.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
 
 # Obs camera plugin
-# rpm-ostree install v4l2loopback
+# 0rpm-ostree install v4l2loopback
 
 #### Example for enabling a System Unit File
 
