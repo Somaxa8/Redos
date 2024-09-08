@@ -22,5 +22,8 @@ rpm-ostree override remove firefox firefox-langpacks
 # Obs camera plugin
 rpm-ostree install v4l2loopback
 
+# Steam
+rpm-ostree install steam
+
 #### Example for enabling a System Unit File
 systemctl enable podman.socket
