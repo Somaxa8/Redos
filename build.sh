@@ -23,5 +23,4 @@ rpm-ostree override remove firefox firefox-langpacks
 rpm-ostree install v4l2loopback
 
 #### Example for enabling a System Unit File
-
 systemctl enable podman.socket
